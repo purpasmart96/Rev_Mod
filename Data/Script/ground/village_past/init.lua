@@ -25,6 +25,7 @@ function village_past.Init(map)
   --This will fill the localized strings table automatically based on the locale the game is 
   -- currently in. You can use the MapStrings table after this line!
   MapStrings = COMMON.AutoLoadLocalizedStrings()
+  GAME:UnlockDungeon('forbidden_forest')
 
 end
 
@@ -69,6 +70,12 @@ end
 -- Entities Callbacks
 -------------------------------
 
+function village_past.South_Exit_Touch(obj, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  local dungeon_entrances = { 'forbidden_forest'}
+  local ground_entrances = {{Flag=false, Zone='forbidden_forest',ID=0,Entry=0}}
+  COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
+end
 
 return village_past
 

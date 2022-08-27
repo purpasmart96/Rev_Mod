@@ -25,6 +25,8 @@ function beach.Init(map)
   --This will fill the localized strings table automatically based on the locale the game is 
   -- currently in. You can use the MapStrings table after this line!
   MapStrings = COMMON.AutoLoadLocalizedStrings()
+  _DATA.Save.NoSwitching = true
+  COMMON.RespawnAllies()
 
 end
 
@@ -32,11 +34,29 @@ end
 --Engine callback function
 function beach.Enter(map)
 
-  GAME:FadeIn(20)
+  DEBUG.EnableDbgCoro()
+
+    if GAME:GetPlayerPartyCount() < 2 then
+      local mon_id = RogueEssence.Dungeon.MonsterID("treecko", 0, "normal", Gender.Male)
+      local p = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 8, "", 0)
+      p.IsFounder = true
+      p.IsPartner = true
+      _DATA.Save.ActiveTeam.Players:Add(p)
+      GROUND:SpawnerSetSpawn('TEAMMATE_1', p)
+      GROUND:SpawnerDoSpawn('TEAMMATE_1')
+    end
+
+    local partner = CH('Partner')
+
+    GAME:FadeIn(20)
     if not SV.beach.IntroComplete then
       beach.BeginCutscene()
-      SV.beach.IntroComplete = true
+      SV.beach.IntroComplete =  true
     end
+
+  AI:SetCharacterAI(partner, "ai.ground_partner", CH('PLAYER'), partner.Position)
+  partner.CollisionDisabled = true
+
 end
 
 ---beach.Exit
@@ -64,7 +84,8 @@ end
 --Engine callback function
 function beach.GameLoad(map)
 
-  GAME:FadeIn(20)
+  --GAME:FadeIn(20)
+  beach.Enter(map)
 
 end
 
@@ -87,10 +108,10 @@ function beach.Storage_Action(obj, activator)
   COMMON:ShowTeamStorageMenu()
 end
 
-function beach.Chara_Partner_Action()
+function beach.Partner_Action()
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
 
-  local chara = CH('Chara_Partner')
+  local chara = CH('Partner')
   local player = CH('PLAYER')
 
   --Make the npc face the player
@@ -126,7 +147,7 @@ function beach.BeginCutscene()
 
   GAME:CutsceneMode(true)
 
-  local chara = CH('Chara_Partner')
+  local chara = CH('Partner')
   local player = CH('PLAYER')
   UI:SetSpeaker(chara)
 

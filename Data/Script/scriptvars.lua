@@ -48,9 +48,25 @@ SV.adventure =
 -----------------------------------------------
 -- Level Specific Defaults
 -----------------------------------------------
+SV.Chapter0 =
+{
+  IntroCutsceneDone = false,
+  VillageLeaderIntroCutsceneDone = false,
+  VillageLeaderBossCutsceneDone = false,
+}
+
 SV.beach =
 {
   IntroComplete = false,
+  Missions = { },
+}
+
+SV.my_ground_2 =
+{
+  IntroComplete = false,
+  Missions = { },
+  CurrentOutlaws = { },
+  FinishedMissions = { },
 }
 
 SV.test_grounds =

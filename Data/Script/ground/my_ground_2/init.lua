@@ -27,7 +27,7 @@ function my_ground_2.Init(map)
   MapStrings = COMMON.AutoLoadLocalizedStrings()
   COMMON.RespawnAllies()
   GAME:UnlockDungeon('faded_trail')
-  GAME:UnlockDungeon('test_zone')
+  GAME:UnlockDungeon('debug_zone')
 
 end
 
@@ -87,7 +87,7 @@ function my_ground_2.Storage_Action(obj, activator)
   COMMON:ShowTeamStorageMenu()
 end
 
-function my_ground_2.NPC_Reptile_Action()
+function my_ground_2.NPC_Reptile_Action_Temp()
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
 
   local chara = CH('NPC_Reptile')
@@ -98,11 +98,55 @@ function my_ground_2.NPC_Reptile_Action()
   UI:SetSpeaker(chara)
   UI:SetSpeakerEmotion("Happy")
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['WelcomeText']))
+
+  local quest = SV.my_ground_2.Missions["OutlawQuest"]
+  if quest == nil then
+    SV.my_ground_2.Missions["OutlawQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_OUTLAW, DestZone = "faded_trail", DestSegment = "0", DestFloor = "3", TargetSpecies = "riolu" }
+  end
+end
+
+
+function my_ground_2.NPC_Reptile_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  PrintInfo('Volbeat_Action')
+  GROUND:CharTurnToCharAnimated(chara, CH('PLAYER'), 4)
+
+  UI:SetSpeaker(chara)
+  -- check for quest presence
+  local quest = SV.my_ground_2.Missions["VolmiseQuest"]
+  if quest == nil then
+    -- no caterpie quest? ask to start one
+    UI:ChoiceMenuYesNo("No Volmise mission detected. Do you want to start one?")
+    UI:WaitForChoice()
+    local chres = UI:ChoiceResult()
+    if chres then
+	  -- Type 1 = Escort
+	  SV.my_ground_2.Missions["VolmiseQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_ESCORT, DestZone = "rev_zone", DestSegment = 0, DestFloor = 3, TargetSpecies = "illumise", EscortSpecies = "volbeat" }
+      UI:WaitShowDialogue("You can find Illumise at Replay Test Zone 4F.  I'll join you when you enter!")
+    end
+  else
+    if quest.Complete == 2 then
+	  -- there is a caterpie quest, and it has been completed- thank you note
+	  UI:WaitShowDialogue("Volmise mission state: Rewarded.  Thank you for rescuing Illumise!")
+	elseif quest.Complete == 1 then
+	  UI:WaitShowDialogue("Volmise mission state: Complete.  Give a reward and mark mission as rewarded.")
+	  quest.Complete = 2
+	else
+	  -- there is a caterpie quest, but it hasn't been completed?  ask to abandon
+      UI:ChoiceMenuYesNo("Volmise mission state: Incomplete.  Do you want to abandon the mission?")
+      UI:WaitForChoice()
+      local chres = UI:ChoiceResult()
+      if chres then
+	    SV.my_ground_2.Missions["VolmiseQuest"] = nil
+        UI:WaitShowDialogue("Volmise mission removed.")
+      end
+	end
+  end
 end
 
 function my_ground_2.North_Exit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
-  local dungeon_entrances = { 'rev_zone', 'my_zone', 'faded_trail', 'test_zone'}
+  local dungeon_entrances = { 'rev_zone', 'my_zone', 'faded_trail', 'debug_zone'}
   local ground_entrances = {{Flag=true, Zone='rev_zone',ID=0,Entry=0}}
   COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
 end

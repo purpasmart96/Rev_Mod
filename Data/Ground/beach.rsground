@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.6.0.0",
+"Version": "0.6.1.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 1,
@@ -4507,21 +4507,12 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 1
-},
-{
-"Bounds": {
-"X": 96,
-"Y": 136,
-"Width": 8,
-"Height": 8
-},
 "Tags": 0
 },
 {
 "Bounds": {
 "X": 96,
-"Y": 144,
+"Y": 136,
 "Width": 8,
 "Height": 8
 },
@@ -4530,6 +4521,15 @@
 {
 "Bounds": {
 "X": 96,
+"Y": 144,
+"Width": 8,
+"Height": 8
+},
+"Tags": 0
+},
+{
+"Bounds": {
+"X": 96,
 "Y": 152,
 "Width": 8,
 "Height": 8
@@ -6796,21 +6796,12 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 144,
-"Y": 240,
-"Width": 8,
-"Height": 8
-},
 "Tags": 1
 },
 {
 "Bounds": {
 "X": 144,
-"Y": 248,
+"Y": 240,
 "Width": 8,
 "Height": 8
 },
@@ -6819,6 +6810,15 @@
 {
 "Bounds": {
 "X": 144,
+"Y": 248,
+"Width": 8,
+"Height": 8
+},
+"Tags": 1
+},
+{
+"Bounds": {
+"X": 144,
 "Y": 256,
 "Width": 8,
 "Height": 8
@@ -7140,30 +7140,12 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
 "X": 152,
 "Y": 224,
-"Width": 8,
-"Height": 8
-},
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 152,
-"Y": 232,
-"Width": 8,
-"Height": 8
-},
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 152,
-"Y": 240,
 "Width": 8,
 "Height": 8
 },
@@ -7172,6 +7154,24 @@
 {
 "Bounds": {
 "X": 152,
+"Y": 232,
+"Width": 8,
+"Height": 8
+},
+"Tags": 1
+},
+{
+"Bounds": {
+"X": 152,
+"Y": 240,
+"Width": 8,
+"Height": 8
+},
+"Tags": 1
+},
+{
+"Bounds": {
+"X": 152,
 "Y": 248,
 "Width": 8,
 "Height": 8
@@ -7493,21 +7493,12 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
 "X": 160,
 "Y": 216,
-"Width": 8,
-"Height": 8
-},
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 160,
-"Y": 224,
 "Width": 8,
 "Height": 8
 },
@@ -7516,6 +7507,15 @@
 {
 "Bounds": {
 "X": 160,
+"Y": 224,
+"Width": 8,
+"Height": 8
+},
+"Tags": 1
+},
+{
+"Bounds": {
+"X": 160,
 "Y": 232,
 "Width": 8,
 "Height": 8
@@ -8118,21 +8118,12 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
 "X": 176,
 "Y": 128,
-"Width": 8,
-"Height": 8
-},
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 176,
-"Y": 136,
 "Width": 8,
 "Height": 8
 },
@@ -8141,6 +8132,15 @@
 {
 "Bounds": {
 "X": 176,
+"Y": 136,
+"Width": 8,
+"Height": 8
+},
+"Tags": 0
+},
+{
+"Bounds": {
+"X": 176,
 "Y": 144,
 "Width": 8,
 "Height": 8
@@ -8480,21 +8480,12 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
 "X": 184,
 "Y": 128,
-"Width": 8,
-"Height": 8
-},
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 184,
-"Y": 136,
 "Width": 8,
 "Height": 8
 },
@@ -8503,6 +8494,15 @@
 {
 "Bounds": {
 "X": 184,
+"Y": 136,
+"Width": 8,
+"Height": 8
+},
+"Tags": 0
+},
+{
+"Bounds": {
+"X": 184,
 "Y": 144,
 "Width": 8,
 "Height": 8
@@ -11104,7 +11104,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -11119,15 +11119,6 @@
 "Bounds": {
 "X": 240,
 "Y": 216,
-"Width": 8,
-"Height": 8
-},
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 240,
-"Y": 224,
 "Width": 8,
 "Height": 8
 },
@@ -11136,6 +11127,15 @@
 {
 "Bounds": {
 "X": 240,
+"Y": 224,
+"Width": 8,
+"Height": 8
+},
+"Tags": 0
+},
+{
+"Bounds": {
+"X": 240,
 "Y": 232,
 "Width": 8,
 "Height": 8
@@ -14045,21 +14045,12 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
-},
-{
-"Bounds": {
-"X": 304,
-"Y": 248,
-"Width": 8,
-"Height": 8
-},
 "Tags": 1
 },
 {
 "Bounds": {
 "X": 304,
-"Y": 256,
+"Y": 248,
 "Width": 8,
 "Height": 8
 },
@@ -14068,6 +14059,15 @@
 {
 "Bounds": {
 "X": 304,
+"Y": 256,
+"Width": 8,
+"Height": 8
+},
+"Tags": 1
+},
+{
+"Bounds": {
+"X": 304,
 "Y": 264,
 "Width": 8,
 "Height": 8
@@ -14407,7 +14407,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -16172,7 +16172,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 1
+"Tags": 0
 },
 {
 "Bounds": {
@@ -17611,7 +17611,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -17973,7 +17973,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -247857,7 +247857,7 @@
 ]
 }
 ],
-"Music": "A08. Aftermath.ogg",
+"Music": "A06. Snow Camp.ogg",
 "EdgeView": 1,
 "NoSwitching": false,
 "ViewCenter": null,
@@ -247878,31 +247878,22 @@
 {
 "Name": "New EntLayer",
 "Visible": true,
-"MapChars": [
+"MapChars": [],
+"GroundObjects": [],
+"Spawners": [
 {
-"Direction": 4,
-"IsInteracting": false,
-"AIEnabled": true,
-"EntName": "Chara_Partner",
-"EntEnabled": true,
-"serializationLoc": {
-"X": 248,
-"Y": 135
-},
-"serializationDir": 4,
-"triggerType": 1,
-"<AI>k__BackingField": null,
-"Data": {
+"NPCName": "Partner",
+"NPCChar": {
 "Nickname": "",
 "OriginalUUID": "",
 "OriginalTeam": "",
 "BaseForm": {
-"Species": "flygon",
+"Species": "missingno",
 "Form": 0,
 "Skin": "normal",
-"Gender": 2
+"Gender": 0
 },
-"Level": 1,
+"Level": 0,
 "EXP": 0,
 "MaxHPBonus": 0,
 "AtkBonus": 0,
@@ -247935,7 +247926,7 @@
 "Discriminator": 0,
 "MetAt": "",
 "MetLoc": {
-"ID": "",
+"ID": "-1",
 "StructID": {
 "Segment": -1,
 "ID": -1
@@ -247944,7 +247935,7 @@
 },
 "DefeatAt": "",
 "DefeatLoc": {
-"ID": "",
+"ID": "-1",
 "StructID": {
 "Segment": -1,
 "ID": -1
@@ -247957,17 +247948,21 @@
 "ActionEvents": [],
 "ScriptVars": null
 },
-"CollisionDisabled": false,
+"EntName": "TEAMMATE_1",
+"Direction": 4,
+"EntEnabled": true,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
 "Collider": {
 "X": 248,
-"Y": 135,
+"Y": 136,
 "Width": 16,
 "Height": 16
 }
 }
 ],
-"GroundObjects": [],
-"Spawners": [],
 "Markers": [
 {
 "EntName": "Chara_Partner_1",
