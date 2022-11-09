@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.6.0.0",
+"Version": "0.6.5.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -241,7 +241,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -793,7 +803,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -1345,7 +1365,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -1897,7 +1927,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -2449,7 +2489,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -3001,7 +3051,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -3553,7 +3613,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -4105,7 +4175,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -4657,7 +4737,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -5209,7 +5299,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -5761,7 +5861,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -6313,7 +6423,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -6865,7 +6985,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -7417,7 +7547,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -7969,7 +8109,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -8521,7 +8671,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -9073,7 +9233,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -9625,7 +9795,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -10177,7 +10357,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }
@@ -10729,7 +10919,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 3,
+"RespawnTime": 80
+},
 "MaxFoes": 3,
 "RespawnTime": 80
 }

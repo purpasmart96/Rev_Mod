@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.6.1.0",
+"Version": "0.6.5.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 1,
@@ -12932,7 +12932,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -12941,7 +12941,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -13312,7 +13312,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -13674,7 +13674,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -14036,7 +14036,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -14398,7 +14398,7 @@
 "Width": 8,
 "Height": 8
 },
-"Tags": 0
+"Tags": 1
 },
 {
 "Bounds": {
@@ -247857,7 +247857,7 @@
 ]
 }
 ],
-"Music": "A06. Snow Camp.ogg",
+"Music": "A10. Luminous Spring.ogg",
 "EdgeView": 1,
 "NoSwitching": false,
 "ViewCenter": null,
