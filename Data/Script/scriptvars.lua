@@ -45,6 +45,12 @@ SV.adventure =
   Thief    = false
 }
 
+SV.missions =
+{
+  Missions = { },
+  FinishedMissions = { },
+}
+
 -----------------------------------------------
 -- Level Specific Defaults
 -----------------------------------------------
@@ -58,24 +64,19 @@ SV.Chapter0 =
 SV.beach =
 {
   IntroComplete = false,
-  Missions = { },
 }
 
 SV.my_ground_2 =
 {
   IntroComplete = false,
-  Missions = { },
   CurrentOutlaws = { },
-  FinishedMissions = { },
 }
 
 SV.test_grounds =
 {
   SpokeToPooch = false,
   AcceptedPooch = false,
-  Missions = { },
   CurrentOutlaws = { },
-  FinishedMissions = { },
   Starter = { Species="pikachu", Form=0, Skin="normal", Gender=2 },
   Partner = { Species="eevee", Form=0, Skin="normal", Gender=1 },
   DemoComplete = false,

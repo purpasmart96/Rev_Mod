@@ -100,9 +100,9 @@ function my_ground_2.NPC_Reptile_Action_Temp()
   UI:SetSpeakerEmotion("Happy")
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['WelcomeText']))
 
-  local quest = SV.my_ground_2.Missions["OutlawQuest"]
+  local quest = SV.missions.Missions["OutlawQuest"]
   if quest == nil then
-    SV.my_ground_2.Missions["OutlawQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_OUTLAW, DestZone = "faded_trail", DestSegment = "0", DestFloor = "3", TargetSpecies = "riolu" }
+    SV.missions.Missions["OutlawQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_OUTLAW, DestZone = "faded_trail", DestSegment = "0", DestFloor = "3", TargetSpecies = "riolu" }
   end
 end
 
@@ -114,7 +114,7 @@ function my_ground_2.NPC_Reptile_Action(chara, activator)
 
   UI:SetSpeaker(chara)
   -- check for quest presence
-  local quest = SV.test_grounds.Missions["MyQuest"]
+  local quest = SV.missions.Missions["MyQuest"]
   if quest == nil then
     -- no caterpie quest? ask to start one
     UI:ChoiceMenuYesNo("No Volmise mission detected. Do you want to start one?")
@@ -125,7 +125,7 @@ function my_ground_2.NPC_Reptile_Action(chara, activator)
 	  --SV.test_grounds.Missions["MyQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_OUTLAW, DestZone = "rev_zone", DestSegment = "0", DestFloor = "3", TargetSpecies = "riolu" }
 	  --SV.test_grounds.Missions["VolmiseQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_ESCORT, DestZone = "rev_zone", DestSegment = 0, DestFloor = 2, TargetSpecies = "illumise", EscortSpecies = "volbeat" }
 	  --SV.test_grounds.Missions["MyQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_ESCORT, DestZone = "rev_zone", DestSegment = 0, DestFloor = 3, TargetSpecies = "mudkip", EscortSpecies = "absol" }
-	  SV.test_grounds.Missions["MyQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_OUTLAW, DestZone = "rev_zone", DestSegment = 0, DestFloor = 3, TargetSpecies = "absol" }
+	  SV.missions.Missions["MyQuest"] = { Complete = COMMON.MISSION_INCOMPLETE, Type = COMMON.MISSION_TYPE_OUTLAW, DestZone = "rev_zone", DestSegment = 0, DestFloor = 3, TargetSpecies = "absol" }
       UI:WaitShowDialogue("You can find Illumise at Replay Test Zone 4F.  I'll join you when you enter!")
     end
   else
@@ -141,7 +141,7 @@ function my_ground_2.NPC_Reptile_Action(chara, activator)
       UI:WaitForChoice()
       local chres = UI:ChoiceResult()
       if chres then
-	    SV.test_grounds.Missions["MyQuest"] = nil
+	    SV.missions.Missions["MyQuest"] = nil
         UI:WaitShowDialogue("Volmise mission removed.")
       end
 	end
