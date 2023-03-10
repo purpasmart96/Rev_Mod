@@ -178,6 +178,7 @@ function beach.BeginCutscene()
 
   UI:SetSpeaker(chara)
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['PartnerCutscene4']))
+  --UI:WaitShowDialogue(STRINGS:Format(MapStrings['MemeText']))
 
   UI:SetSpeaker(player)
   --UI:SetSpeakerEmotion("Question")
