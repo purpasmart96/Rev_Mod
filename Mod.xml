@@ -1,5 +1,9 @@
 <Header>
   <Name>Rev Mod</Name>
+  <Author>
+  </Author>
+  <Description>
+  </Description>
   <Namespace>rev_mod</Namespace>
   <UUID>C1E3E199-C624-48D5-8F21-C5A38B57DFB5</UUID>
   <Version>0.1</Version>

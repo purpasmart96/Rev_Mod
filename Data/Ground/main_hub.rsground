@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.6.5.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 1,
-"AssetName": "beach",
 "Name": {
 "DefaultText": "Beach",
 "LocalTexts": {}
@@ -247857,6 +247856,7 @@
 ]
 }
 ],
+"AssetName": "beach",
 "Music": "Miracle Sea.ogg",
 "EdgeView": 1,
 "NoSwitching": false,
@@ -247885,10 +247885,12 @@
 "AIEnabled": true,
 "EntName": "Chara_Partner",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 248,
 "Y": 136
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -247953,7 +247955,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -247973,6 +247977,7 @@
 "EntName": "Chara_Partner_1",
 "Direction": 2,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 303,

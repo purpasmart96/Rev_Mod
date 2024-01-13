@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.7.1.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 1,
-"AssetName": "beach",
 "Name": {
 "DefaultText": "Beach",
 "LocalTexts": {}
@@ -247857,6 +247856,7 @@
 ]
 }
 ],
+"AssetName": "beach",
 "Music": "A10. Luminous Spring.ogg",
 "EdgeView": 1,
 "NoSwitching": false,
@@ -247944,13 +247944,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMMATE_1",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -247968,6 +247971,7 @@
 "EntName": "Chara_Partner_1",
 "Direction": 2,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 303,

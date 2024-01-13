@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.6.5.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -12,8 +12,10 @@
 "Released": false,
 "Comment": "",
 "NoEXP": false,
+"ExpPercent": 100,
 "Level": -1,
 "LevelCap": false,
+"KeepSkills": false,
 "TeamRestrict": false,
 "TeamSize": -1,
 "MoneyRestrict": false,
@@ -40,7 +42,8 @@
 "Music": "B08. Forsaken Desert.ogg",
 "TimeLimit": 30000,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -286,7 +289,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -343,7 +345,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -352,6 +353,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -384,7 +386,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -419,7 +420,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -502,7 +502,7 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
+"IncludeHalls": false,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -510,7 +510,8 @@
 "Max": 250
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -544,7 +545,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -617,7 +617,6 @@
 },
 "ID": "tile_compass",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -659,7 +658,6 @@
 },
 "ID": "tile_compass",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -681,7 +679,8 @@
 "CompassTile": "tile_compass"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
@@ -697,7 +696,8 @@
 "Music": "B08. Forsaken Desert.ogg",
 "TimeLimit": 30000,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -943,7 +943,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1000,7 +999,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1009,6 +1007,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -1041,7 +1040,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1076,7 +1074,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1159,7 +1156,7 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
+"IncludeHalls": false,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -1167,7 +1164,8 @@
 "Max": 250
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -1201,7 +1199,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -1274,7 +1271,6 @@
 },
 "ID": "tile_compass",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -1316,7 +1312,6 @@
 },
 "ID": "tile_compass",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1395,7 +1390,8 @@
 "CompassTile": "tile_compass"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
@@ -1411,7 +1407,8 @@
 "Music": "B08. Forsaken Desert.ogg",
 "TimeLimit": 30000,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -1657,7 +1654,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1705,7 +1701,6 @@
 },
 "ID": "stairs_secret_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1774,7 +1769,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1783,6 +1777,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -1815,7 +1810,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1850,7 +1844,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1933,7 +1926,7 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
+"IncludeHalls": false,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -1941,7 +1934,8 @@
 "Max": 250
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -1975,7 +1969,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -2048,7 +2041,6 @@
 },
 "ID": "tile_compass",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -2191,7 +2183,8 @@
 "CompassTile": "tile_compass"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.GridFloorGen, RogueEssence",
@@ -2207,7 +2200,8 @@
 "Music": "B08. Forsaken Desert.ogg",
 "TimeLimit": 30000,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -2453,7 +2447,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2510,7 +2503,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2519,6 +2511,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -2551,7 +2544,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2586,7 +2578,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2669,7 +2660,7 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
+"IncludeHalls": false,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -2677,7 +2668,8 @@
 "Max": 250
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -2711,7 +2703,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -2784,7 +2775,6 @@
 },
 "ID": "tile_compass",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -3155,7 +3145,8 @@
 "CompassTile": "tile_compass"
 }
 }
-]
+],
+"Comment": ""
 }
 ],
 "ZoneSteps": [
@@ -3169,7 +3160,12 @@
 }
 },
 {
-"$type": "RogueEssence.LevelGen.FloorNameIDZoneStep, RogueEssence",
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
 "Name": {
 "DefaultText": "Forsaken Desert\\n{0}F",
 "LocalTexts": {
@@ -3247,7 +3243,8 @@
 "Spawns": []
 }
 ],
-"IsRelevant": true
+"IsRelevant": true,
+"Comment": ""
 }
 ],
 "GroundMaps": [

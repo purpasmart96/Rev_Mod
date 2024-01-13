@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.6.8.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
-"AssetName": "moon_test1",
 "Name": {
 "DefaultText": "",
 "LocalTexts": {}
@@ -89405,6 +89404,7 @@
 ]
 }
 ],
+"AssetName": "moon_test1",
 "Music": "1fineday.ogg",
 "EdgeView": 0,
 "NoSwitching": false,
@@ -89433,10 +89433,12 @@
 "AIEnabled": true,
 "EntName": "NPC_Enemy",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 446,
 "Y": 355
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -89501,7 +89503,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -89579,13 +89583,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMATE_1",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -89603,6 +89610,7 @@
 "EntName": "Spawn",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 387,

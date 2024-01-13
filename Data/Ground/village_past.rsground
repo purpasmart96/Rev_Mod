@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.6.5.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
-"AssetName": "village_past",
 "Name": {
 "DefaultText": "Village Past",
 "LocalTexts": {}
@@ -86551,6 +86550,7 @@
 ]
 }
 ],
+"AssetName": "village_past",
 "Music": "Fortune Ravine.ogg",
 "EdgeView": 1,
 "NoSwitching": false,
@@ -86707,6 +86707,7 @@
 "EntName": "South_Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -86751,6 +86752,7 @@
 "EntName": "NewObject",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 1032,

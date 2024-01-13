@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.6.8.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
-"AssetName": "my_ground_2",
 "Name": {
 "DefaultText": "My Test Map",
 "LocalTexts": {}
@@ -54304,6 +54303,7 @@
 ]
 }
 ],
+"AssetName": "my_ground_2",
 "Music": "dancingonthemoon.ogg",
 "EdgeView": 1,
 "NoSwitching": false,
@@ -54349,10 +54349,12 @@
 "AIEnabled": true,
 "EntName": "NPC_Reptile",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 388,
 "Y": 275
 },
+"serializationHeight": 0,
 "serializationDir": 1,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -54417,7 +54419,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -54435,6 +54439,7 @@
 "EntName": "Storage",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -54476,6 +54481,7 @@
 "EntName": "Sign",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -54517,6 +54523,7 @@
 "EntName": "North_Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -54558,6 +54565,7 @@
 "EntName": "Assembly",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -54660,13 +54668,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMMATE_1",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -54741,13 +54752,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMMATE_2",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -54822,13 +54836,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMMATE_3",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -54846,6 +54863,7 @@
 "EntName": "Spawn",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 350,
@@ -54858,6 +54876,7 @@
 "EntName": "entrance",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 363,

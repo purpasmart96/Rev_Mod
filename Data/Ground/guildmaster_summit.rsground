@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.6.5.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
-"AssetName": "guildmaster_summit",
 "Name": {
 "DefaultText": "Guildmaster Summit",
 "LocalTexts": {
@@ -24000,6 +23999,7 @@
 ]
 }
 ],
+"AssetName": "guildmaster_summit",
 "Music": "A07. Summit.ogg",
 "EdgeView": 1,
 "NoSwitching": false,
@@ -24028,10 +24028,12 @@
 "AIEnabled": true,
 "EntName": "Xatu",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 196,
 "Y": 120
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -24096,7 +24098,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -24114,10 +24118,12 @@
 "AIEnabled": true,
 "EntName": "Lucario",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 172,
 "Y": 120
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -24182,7 +24188,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -24200,10 +24208,12 @@
 "AIEnabled": true,
 "EntName": "Wigglytuff",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 220,
 "Y": 120
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -24268,7 +24278,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -24286,10 +24298,12 @@
 "AIEnabled": false,
 "EntName": "NPC_1",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 264,
 "Y": 176
 },
+"serializationHeight": 0,
 "serializationDir": 5,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -24354,7 +24368,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -24372,10 +24388,12 @@
 "AIEnabled": false,
 "EntName": "NPC_2",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 120,
 "Y": 192
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -24440,7 +24458,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
@@ -24458,6 +24478,7 @@
 "EntName": "South_Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -24499,6 +24520,7 @@
 "EntName": "Summit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -24601,13 +24623,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMMATE_1",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -24682,13 +24707,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMMATE_2",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -24763,13 +24791,16 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
 "EntName": "TEAMMATE_3",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -24787,6 +24818,7 @@
 "EntName": "entrance_south",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 196,
