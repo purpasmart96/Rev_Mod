@@ -1,12 +1,134 @@
 ﻿{
-"Version": "0.7.4.0",
+"Version": "0.7.23.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"forbidden_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 10,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 8,
+"Rogue": 2,
+"Grounds": [
+"village_past"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7
+],
+[
+0,
+1,
+2
+]
+],
+"Name": {
+"DefaultText": "Forbidden Forest",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"my_zone": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 4,
+"Rogue": 2,
+"Grounds": [
+"my_ground_2"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3
+]
+],
+"Name": {
+"DefaultText": "My Map",
+"LocalTexts": {
+"de": "Verlassene Wüste",
+"es": "Desierto Abandonado"
+}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"rev_zone": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 10,
+"Rogue": 2,
+"Grounds": [
+"my_ground_2",
+"beach"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+]
+],
+"Name": {
+"DefaultText": "My Map Two",
+"LocalTexts": {
+"de": "Reliktenturm",
+"es": "Torre Reliquia"
+}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
 "test_zone": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"NoEXP": false,
+"ExpPercent": 100,
 "Level": 60,
 "LevelCap": false,
+"KeepSkills": false,
 "TeamRestrict": false,
 "TeamSize": 3,
 "MoneyRestrict": false,
@@ -50,124 +172,6 @@
 }
 },
 "Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"my_zone": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"NoEXP": false,
-"Level": -1,
-"LevelCap": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"BagSize": -1,
-"Rescues": 2,
-"CountedFloors": 4,
-"Rogue": 2,
-"Grounds": [
-"my_ground_2"
-],
-"Maps": [
-[
-0,
-1,
-2,
-3
-]
-],
-"Name": {
-"DefaultText": "My Map",
-"LocalTexts": {
-"de": "Verlassene Wüste",
-"es": "Desierto Abandonado"
-}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"rev_zone": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"NoEXP": false,
-"Level": -1,
-"LevelCap": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"BagSize": -1,
-"Rescues": 2,
-"CountedFloors": 10,
-"Rogue": 2,
-"Grounds": [
-"my_ground_2",
-"beach"
-],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9
-]
-],
-"Name": {
-"DefaultText": "My Map Two",
-"LocalTexts": {
-"de": "Reliktenturm",
-"es": "Torre Reliquia"
-}
-},
-"Released": false,
-"Comment": "",
-"SortOrder": 0
-},
-"forbidden_forest": {
-"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"NoEXP": false,
-"Level": 10,
-"LevelCap": false,
-"TeamRestrict": false,
-"TeamSize": -1,
-"MoneyRestrict": false,
-"BagRestrict": -1,
-"BagSize": -1,
-"Rescues": 0,
-"CountedFloors": 8,
-"Rogue": 2,
-"Grounds": [
-"village_past"
-],
-"Maps": [
-[
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7
-],
-[
-0,
-1,
-2
-]
-],
-"Name": {
-"DefaultText": "Forbidden Forest",
-"LocalTexts": {}
-},
-"Released": true,
 "Comment": "",
 "SortOrder": 0
 }
